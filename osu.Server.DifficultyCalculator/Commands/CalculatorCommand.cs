@@ -49,6 +49,7 @@ namespace osu.Server.DifficultyCalculator.Commands
 
         public void OnExecute(CommandLineApplication app, IConsole console)
         {
+            RedisHelper.Initialization(new CSRedis.CSRedisClient("192.168.192.21"));
             reporter = new Reporter(console, LogFile)
             {
                 IsQuiet = Quiet,

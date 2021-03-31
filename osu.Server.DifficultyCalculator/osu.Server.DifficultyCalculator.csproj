@@ -5,11 +5,12 @@
         <TargetFramework>net5.0</TargetFramework>
         <AssemblyName>osu.Server.DifficultyCalculator</AssemblyName>
         <RootNamespace>osu.Server.DifficultyCalculator</RootNamespace>
-        <LangVersion>7.1</LangVersion>
+        <LangVersion>8.0</LangVersion>
         <ServerGarbageCollection>true</ServerGarbageCollection>
         <ConcurrentGarbageCollection>true</ConcurrentGarbageCollection>
     </PropertyGroup>
     <ItemGroup>
+        <PackageReference Include="CSRedisCore" Version="3.6.6" />
         <PackageReference Include="Dapper" Version="2.0.78" />
         <PackageReference Include="Dapper.Contrib" Version="2.0.78" />
         <PackageReference Include="McMaster.Extensions.CommandLineUtils" Version="3.1.0" />

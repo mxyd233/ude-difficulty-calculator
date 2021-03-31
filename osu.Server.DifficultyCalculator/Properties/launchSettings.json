@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "osu.Server.DifficultyCalculator": {
+      "commandName": "Project",
+      "commandLineArgs": "all -c 32"
+    }
+  }
+}

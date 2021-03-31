@@ -41,7 +41,7 @@ namespace osu.Server.DifficultyCalculator
         static AppSettings()
         {
             INSERT_BEATMAPS = Environment.GetEnvironmentVariable("INSERT_BEATMAPS") == "1";
-            ALLOW_DOWNLOAD = Environment.GetEnvironmentVariable("ALLOW_DOWNLOAD") == "1";
+            ALLOW_DOWNLOAD =true;//= Environment.GetEnvironmentVariable("ALLOW_DOWNLOAD") == "1";
             SAVE_DOWNLOADED = Environment.GetEnvironmentVariable("SAVE_DOWNLOADED") == "1";
 
             BEATMAPS_PATH = Environment.GetEnvironmentVariable("BEATMAPS_PATH") ?? "osu";
