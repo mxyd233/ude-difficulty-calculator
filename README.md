@@ -1,6 +1,5 @@
-# osu!server [![dev chat](https://discordapp.com/api/guilds/188630481301012481/widget.png?style=shield)](https://discord.gg/ppy)
-
-Server-side components for [osu!](https://osu.ppy.sh).
+[osu!ude](https://osu.zhzi233.cn)的服务端组件。
+基于[osu-difficulty-calculator](https://github.com/ppy/osu-difficulty-calculator)
 
 For more detailed information see per-component READMEs.
 
